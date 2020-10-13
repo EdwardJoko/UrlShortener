@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500&display=swap');
+
+:root {
+  --background: #100340;
+  --text: #CEDAE7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: var(--background);
+  color: var(--text) !important;
+  font-family: 'Commissioner', sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.UrlInput {
+  width: 500px !important;
+}
+
+table {
+  width: 75% !important;
+  margin: 20px auto !important;
+  color: var(--text) !important;
+}
+
+a {
+  color: var(--text) !important;
+}
+
+.hide {
+  display: none;
+  font-size: 17px;
+}
+
+.container-404 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-404 {
+  text-align: left;
+}
+
+.bigger-404 {
+  font-size: 75px;
+}
+
+@media screen and (max-width: 1000px) {
+  .hide {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .form-inline {
+    flex-flow: row;
+  }
+
+  table {
+    width: 100% !important;
+  }
+
+  .bigger-404 {
+    font-size: 50px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .form-inline {
+    width: 100%;
+  }
+  
+  table {
+    margin: 20px 0 !important;
+  }
+}
