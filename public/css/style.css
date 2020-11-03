@@ -99,6 +99,11 @@ button:focus  { outline: 0; }
   font-size: 75px;
 }
 
+.container-404 a {
+  font-size: 17.5px;
+  margin-top: 20px;
+}
+
 @media screen and (max-width: 1000px) {
   .hide {
     display: block;
