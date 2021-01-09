@@ -1,5 +1,5 @@
-const mongoose = require('mongoose');
-const shortId  = require('shortid');
+const mongoose = require("mongoose");
+const shortId  = require("shortid");
 
 const urlShortenerSchema = new mongoose.Schema({
   full: {
@@ -18,5 +18,5 @@ const urlShortenerSchema = new mongoose.Schema({
   }
 });
 
-module.exports = mongoose.model('Url', urlShortenerSchema);
+module.exports = mongoose.model("Url", urlShortenerSchema);
 

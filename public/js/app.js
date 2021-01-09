@@ -1,7 +1,7 @@
 // Copying hello pages
-let copy_hello = document.querySelector('.copy-hello');
+let copy_hello = document.querySelector(".copy-hello");
 
-copy_hello.addEventListener('click', () => {
+copy_hello.addEventListener("click", () => {
   let hello = "https://url-shrinker0306.herokuapp.com/hello";
   navigator.clipboard.writeText(hello);
 });
@@ -10,7 +10,7 @@ copy_hello.addEventListener('click', () => {
 let copy_button = document.getElementsByClassName("copy-link");
 
 for (let i = 0; i < copy_button.length; i++) {
-  copy_button[i].addEventListener('click', () => {
+  copy_button[i].addEventListener("click", () => {
     let targetClass = ".target" + i;
     let link = "https://url-shrinker0306.herokuapp.com/";
 
